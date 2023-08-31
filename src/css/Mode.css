@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+button {
+  width: 10rem;  
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #db7c33; 
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}

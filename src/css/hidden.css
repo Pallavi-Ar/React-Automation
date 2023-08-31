@@ -1,0 +1,19 @@
+button {
+    width: 1rem;
+    height: 3rem;
+    background-color: orange;
+    color: white;
+    margin-left: 44%;
+    margin-top: 4rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+h1{
+    margin-top: 2rem;
+}
+
+h3 {
+    margin-top: 4rem;
+    text-align: center;
+}

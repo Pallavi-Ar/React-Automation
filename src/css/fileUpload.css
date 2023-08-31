@@ -1,0 +1,56 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: black;
+}
+       
+#fileInput[type="file"] {  
+    margin-bottom: 10px;
+}
+    
+.file-label {  
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 2%;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #db7c33;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+  
+.file-label input[type="file"] {  
+    display: none;
+}
+  
+.rounded-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 5%;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #db7c33;
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+  
+rounded-button:hover {  
+    background-color: #db7c33;
+    transform: scale(1.05);
+}
+  
+.selected-file {  
+    color: white;
+    margin-top: 10px;
+}
+  
+.status {  
+    color: white;
+
+}

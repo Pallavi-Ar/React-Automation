@@ -1,0 +1,49 @@
+#login-text {
+    margin-left: 43%;
+    margin-top: 5%;
+}
+
+input {
+    margin-left: 26%;
+    margin-top: 2%;
+    background-color: white;
+    color: black;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+#input2 {
+    margin-top: 2%;
+}
+
+#login-btn {
+    margin-left: 36%;
+    margin-top: 2rem;
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+fieldset {
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 5%;
+}
+
+.email-pass {
+    margin: auto;
+    margin-left: 42%;
+    padding-bottom: 1rem;
+    font-size: 17px;
+}
+
+#cred {
+    margin-top: 3rem;
+}
+
+#invalid {
+    margin-left: 31%;
+    margin-top: 1rem;
+}

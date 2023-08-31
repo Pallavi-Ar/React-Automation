@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css'
+import Changing from './components/Changing.js';
+import Disabled from './components/Disabled.js';
+import Hidden from './components/Hidden.js';
+import Layout from './components/Layout';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Bouncing from './components/Bouncing';
+import Mode from './components/Mode';
+import Iframe from './components/Iframe';
+import Svg from './components/Svg';
+import Alerts from './components/Alerts';
+import Login from './components/Login';
+import FileUpload from './components/FileUpload';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+          <Route path="layout" element={<Layout />} />
+          <Route path="disabled" element={<Disabled />} />
+          <Route path="changing" element={<Changing />} />
+          <Route path="hidden" element={<Hidden />} />
+          <Route path="bouncing" element = {<Bouncing />} />
+          <Route path="mode" element = {<Mode />} />
+          <Route path="iframe" element = {<Iframe />} />
+          <Route path="svg" element = {<Svg />} />
+          <Route path="alerts" element = {<Alerts />} />
+          <Route path="fileUpload" element = {<FileUpload />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

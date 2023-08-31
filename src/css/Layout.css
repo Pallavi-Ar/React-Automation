@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    color: yellow;
+    margin-bottom: 3rem;
+}
+
+p {
+    text-align: left;
+    margin-top: 2rem;
+    padding-left: 0.5rem;
+    font-size: 18px;
+}
+
+li:hover {
+    color:aqua;
+}
+
+li p:hover {
+    color: aqua;
+}
